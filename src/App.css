@@ -1,0 +1,103 @@
+.contenedor {
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.Input {
+  height: 35px;
+  color: #282c34;
+  font-weight: 400;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.BuscadorGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.CheckBoxArea {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.CheckBox {
+  width: 30px;
+}
+
+.TableHead {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+}
+
+.HeadText {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+}
+
+.ItemClass {
+  height: 95px;
+  display: flex;
+}
+
+.WrapIcon {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.HeroIcon {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.Nombre {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.NombreReal {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.habilidad {
+  font-size: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
